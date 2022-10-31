@@ -13,7 +13,7 @@
   text-align: right;
 }
 
-.titleInfo img {
+.titleInfo .titleImg {
   width: 100%;
 }
 
@@ -60,15 +60,8 @@
   list-style: none;
 }
 
-.add, 
-.edit,
-.delete {
+.button {
   outline: none;
-}
-
-.add,
-.edit,
-.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -78,8 +71,8 @@
   cursor: pointer;
 }
 
-.edit:hover,
-.delete:hover {
+.button.edit:hover,
+.button.delete:hover {
   color: #3a3a3a;
 }
 
@@ -154,13 +147,13 @@
   width: 226px;
 }
 
-.delete img {
+.delete .deleteImg {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .deleteImg:hover {
   transform: rotateZ(0);
 }
 
